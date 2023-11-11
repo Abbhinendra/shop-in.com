@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background-color: rgb(3, 3, 114);
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 26px;
+}
+nav{
+    padding:6px;
+    display: flex;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav img{
+    width: 86px;
+}
+nav li{
+    list-style: none;
+}
+nav ul li{
+    margin:0 8px;
+    font-size: 1.6rem;
+    font-weight: 800;
+    cursor: pointer;
+    cursor: pointer;
+}
+nav ul li button{
+    margin: 0 6px;
+}
+nav ul li input{
+    padding: 6px;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: lowercase;
+}
+nav ul li button{
+    padding: 6px;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    background-color: black;
+    border-radius:6px;
+    cursor: pointer;
+}
+form button{
+    background-color: black;
+    color: white;
+}
+tbody button{
+    padding: 6px;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    background-color: black;
+    border-radius:6px;
+    cursor: pointer;
+}
+::placeholder{
+  font-size: 12px;
+}
+#text{
+    text-transform: lowercase;
+}
+#thing{
+    text-transform: lowercase;
+}
+#price{
+    text-transform: lowercase;
+}
+table tbody tr td{
+    text-transform: lowercase;
+}
+.srcoll{
+    overflow-x: scroll;
+}
+@media screen and (max-width:500px) {
+    nav ul li{
+        margin:0 8px;
+        font-size: 1.2rem;
+        font-weight: 700;
+        cursor: pointer;
+        cursor: pointer;
+    }
+    nav ul li input{
+        padding: 4px;
+        border: 2px solid black;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: lowercase;
+    }
+    ::placeholder{
+        font-size: 8px;
+    }
+  }
+  @media screen and (max-width:416px) {
+  nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  }
+  @media screen and (max-width:330px) {
+    nav{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    nav img{
+        width: 68px;
+    }
+    nav ul li{
+        margin:0 8px;
+        font-size: 1rem;
+        font-weight: 700;
+        cursor: pointer;
+        cursor: pointer;
+    }
+    nav ul li input{
+        padding: 4px;
+        border: 2px solid black;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: lowercase;
+    }
+    ::placeholder{
+        font-size: 7px;
+    }
+    }
+    @media screen and (max-width:260px) {
+        nav{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+        nav img{
+            width:56px;
+        }
+        nav ul li{
+            margin:0 8px;
+            font-size: 1rem;
+            font-weight: 400;
+            cursor: pointer;
+            cursor: pointer;
+        }
+        nav ul li input{
+            padding: 4px;
+            border: 2px solid black;
+            font-size: 10px;
+            font-weight: 400;
+            text-transform: lowercase;
+        }
+        }
+
+        @media screen and (max-width:280px) {
+         #clear{
+            margin-top: 9px;
+         }
+            }
+
+            
+        @media screen and (max-width:800px) {
+            tbody button{
+                padding: 6px;
+                border: 2px solid black;
+                font-size: 16px;
+                font-weight: 800;
+                color: white;
+                background-color: black;
+                border-radius:2px;
+                cursor: pointer;
+                margin-top: 2px;
+            }
+               }
+
+               table{
+                border: 2px solid black;
+               }
+               table tbody tr td{
+                border: 2px solid black;
+               }
+               table tbody tr th{
+                border: 2px solid black;
+               }
+               table th{
+                border: 2px solid black;
+                color: white;
+               }
+               form label{
+                font-size: 20px;
+                font-family: 800;
+                color: white;
+               }
+               form input{
+                font-size: 18px;
+                font-weight: 700;
+               }
+              form ::placeholder{
+                font-size: 20px;
+                font-weight: 800;
+              }
+              table tbody tr td{
+                font-size: 18px;
+                font-family: 800;
+                color: white;
+              }
+              .container-add{
+                background-color: rgb(3, 3, 114);
+                max-width: max-content;
+                max-height: max-content;
+                padding:6px;
+                border-radius: 8px;
+                overflow-x: hidden;
+                overflow-y: scroll;
+                position: fixed;
+                transform: translate(-50%,-50%);
+                top:50%;
+                left:50%;
+                display: none;
+                justify-content: center;
+                align-items: center;
+                transition: top 1.06s ease-in-out;
+                border: 2px solid white;
+              }
+              .container-add h2{
+                text-align: center;
+                color: white;
+                font-size: 18px;
+                font-weight: 800;
+              }
+              .row{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              .row button{
+                background-color: black;
+                font-size: 14px;
+                font-weight: 600;
+                color: white;
+                border-radius: 6px;
+                border: 2px solid white;
+                text-align: center;
+                padding:6px;
+                margin: 6px 6px;
+                cursor: pointer;
+              }
+              .row input{
+                font-size: 14px;
+                font-weight: 600;
+                border-radius: 6px;
+                padding: 6px;
+                border: 2px solid white;
+                text-align: center;
+                width: 100%;
+              }
+              #close-container{
+                cursor: pointer;
+              }
+              tbody{
+                max-height: max-content;
+              }
+              .min-height{
+                height: 40vh;
+              }
+              .input-row{
+                display: flex;
+                justify-content: center;
+              }
+              footer{
+                padding: 16px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(4, 4, 81);
+              }
+              footer a{
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+                font-weight: 800;
+              }
+              @media screen and (max-width:500px) {
+                footer a{
+                    text-decoration: none;
+                    color:white;
+                    font-size: 18px;
+                    font-weight: 600;
+                  }
+                   }
+                   @media screen and (max-width:430px) {
+                    footer a{
+                        text-decoration: none;
+                        color:white;
+                        font-size: 14px;
+                        font-weight: 600;
+                      }
+                       }
+                       @media screen and (max-width:360px) {
+                        footer a{
+                            text-decoration: none;
+                            color:white;
+                            font-size: 10px;
+                            font-weight: 600;
+                          }
+                           }
+                           @media screen and (max-width:250px) {
+                            footer a{
+                                text-decoration: none;
+                                color:white;
+                                font-size:8px;
+                                font-weight: 600;
+                              }
+                               }

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" type="img/jpg" href="1.jpg"/>
+     <link rel="stylesheet" href="index.css">
+    <title>My shope</title>
+</head>
+<body>
+  <nav>
+    <li><img src="1.jpg" alt=""></li>
+    <ul>
+        <li>Home</li>
+        <li><input type="text" id="search6" placeholder="Search only by your customer's name.">
+    </ul>
+    <div class="bars">
+
+    </div>
+  </nav>
+  <div class="container my-4">
+    <form action="index.html">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Name</label>
+          <input type="text" id="text" maxlength="36" class="form-control" required autocomplete="off" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Thing</label>
+          <input type="text" id="thing" maxlength="60" required autocomplete="off" class="form-control" id="exampleInputPassword1" placeholder="Thing">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">price</label>
+            <input type="number" id="price" maxlength="20" required autocomplete="off" class="form-control" id="exampleInputPassword1" placeholder="Price">
+          </div>
+        <button type="button" id="btn" class="btn btn">Submit</button>   <button type="button" onclick="cl()" class="btn btn" id="clear">Clear all records</button>
+      </form>
+  </div>
+  <div class="container srcoll my-4">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Sno</th>
+            <th scope="col">Name</th>
+            <th scope="col">Thing</th>
+            <th scope="col">Price</th>
+            <th scope="col">Actions</th>
+            <th scope="col">Date</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+      </table>
+  </div>
+   <div class="container my-4 container-add"> 
+    <h2>Calculate me!  <i class="fa-solid fa-xmark" id="close-container"></i></h2>
+    <div class="row input-row">
+    <input class="input" type="text">
+     </div>
+     <div class="row">
+      <button class="button">C</button>
+      <button class="button">%</button>
+      <button class="button">(</button>
+      <button class="button">)</button>
+     </div>
+     <div class="row">
+      <button class="button">7</button>
+      <button class="button">8</button>
+      <button class="button">9</button>
+      <button class="button">*</button>
+     </div>
+     <div class="row">
+      <button class="button">4</button>
+      <button class="button">5</button>
+      <button class="button">6</button>
+      <button class="button">/</button>
+     </div>
+     <div class="row">
+      <button class="button">1</button>
+      <button class="button">2</button>
+      <button class="button">3</button>
+      <button class="button">+</button>
+     </div>
+     <div class="row">
+      <button class="button">0</button>
+      <button class="button">.</button>
+      <button class="button">=</button>
+      <button class="button">-</button>
+     </div>
+  </div>
+  <div class="min-height">
+
+  </div>
+  <footer>
+    <a href="https://coding-idiscuss-in.000webhostapp.com/header.php">Copyright © 2023 CodeWithAbhi.com</a>
+  </footer>
+</body>
+<script src="index.js"></script>
+<script src="https://kit.fontawesome.com/527feac5c0.js" crossorigin="anonymous"></script>
+</html>
