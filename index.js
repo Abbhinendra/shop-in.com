@@ -129,6 +129,7 @@ Array.from(buttns).forEach(button => {
 
 
 let addprice=document.getElementById('addprice');
+let innerval=document.getElementById('innerval');
 addprice.addEventListener('click',function(){
    let string="";
    innerval.value=eval(innerval.value);
