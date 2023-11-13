@@ -337,3 +337,115 @@ table tbody tr td{
                                 font-weight: 600;
                               }
                                }
+
+.button-add {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.button-add button{
+  background-color: black;
+  padding: 6px;
+  border-radius: 6px;
+  border: 2px solid white;
+  cursor: pointer;
+  color: white;
+  margin: 0 6px;
+}
+.button-add input{
+  padding: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+@media screen and (max-width:780px) {
+  .button-add button{
+    background-color: black;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    margin: 0 6px;
+  }
+  .button-add input{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 6px;
+  }
+
+}
+
+@media screen and (max-width:606px) {
+  .button-add button{
+    background-color: black;
+    width: 20vw;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    margin: 0 6px;
+  }
+  .button-add input{
+    width: 40vw;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 6px;
+  }
+
+}
+
+
+@media screen and (max-width:500px) {
+  .button-add button{
+    background-color: black;
+    padding: 6px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    margin: 0 6px;
+  }
+  .button-add input{
+    padding: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 6px;
+  }
+
+}
+
+
+@media screen and (max-width:406px) {
+  .button-add button{
+    background-color: black;
+    padding: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    margin: 0 6px;
+  }
+  .button-add input{
+    padding: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 6px;
+  }
+
+}
