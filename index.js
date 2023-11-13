@@ -126,3 +126,10 @@ Array.from(buttns).forEach(button => {
 
 
 });
+
+
+let addprice=document.getElementById('addprice');
+addprice.addEventListener('click',function(){
+   let string="";
+   innerval.value=eval(innerval.value);
+})
